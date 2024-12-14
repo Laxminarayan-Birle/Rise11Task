@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Installation](#installation)
 - [Approach](#Approach)
-- [Challanges](#Challanges)
+- [Challenges](#Challenges)
 - [Assumptions](#Assumptions)
 - [Screenshots](#Screenshots)
 
