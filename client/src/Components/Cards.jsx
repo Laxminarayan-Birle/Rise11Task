@@ -17,6 +17,7 @@ const Cards = () => {
   };
 
   return (
+    <>
     <div className="mt-10 pb-1">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Card One */}
@@ -202,7 +203,18 @@ const Cards = () => {
           </div>
           {/* Dropdown for Currency Selection */}
         </div>
+        </div>
+        </div>
+      <div className="mt-10 pb-1">
 
+       <hr
+          className="text-gray-500 w-[100%] "
+          style={{
+            border: "2px solid rgb(169 169 169 / 33%)",
+          }}
+        />
+
+     <div className="grid mt-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* card 4 */}
         <div className="w-2/6 flex items-start mb-7">
           <div className="flex items-center mb-4">
@@ -417,7 +429,8 @@ const Cards = () => {
           {/* Dropdown for Currency Selection */}
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

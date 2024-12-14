@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center px-6 py-3 bg-white h-12">
       {/* Logo and Title */}
-      <div className="flex items-center space-x-3 sm:space-x-4">
+      <div className="flex items-center pt-4 space-x-3 sm:space-x-4">
         <img
           src="https://res.cloudinary.com/dsaaqhang/image/upload/v1734023522/jur_logo_xdvv7x.jpg"
           alt="Logo"
